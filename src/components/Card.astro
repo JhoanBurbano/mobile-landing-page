@@ -2,7 +2,7 @@
 import { Icon } from 'astro-icon/components';
 
 interface Props {
-  title: string;
+  title?: string;
   className?: string;
   iconTitle?: string;
 }
@@ -23,6 +23,6 @@ const { title, className = '', iconTitle = '' } = Astro.props;
     )
   }
   {!iconTitle && <h1 class="text-xl font-bold">{title}</h1>}
-  <span class="block border-b border-gray-300 my-2"></span>
+  {iconTitle && <span class="block border-b border-gray-300 my-2" />}
   <slot />
 </article>

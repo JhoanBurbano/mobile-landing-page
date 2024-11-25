@@ -2,21 +2,23 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
 const Projects = () => {
   const [currentTab, setCurrentTab] = useState<number>(0);
-  const tabs = ['Mobile', 'Web', 'Backend'];
+  const tabs = ['Mobile', 'Web'];
   useEffect(() => {
     console.log('Tab changed to:', tabs[currentTab]);
   }, [currentTab]);
   const handleCurrentTab = (index: number) => {
     setCurrentTab(index);
   };
-  const __renderTabContent = useCallback(() => {
+  const __renderTabContent = () => {
     switch (currentTab) {
       case 0:
         return (
           <React.Fragment>
-            <section>
-              <h3>Tasker</h3>
-              <p>
+            <section className="flexf flex-col gap-4 mb-4">
+              <h3 className="text-xl font-semibold text-cyan-600">
+                Survey App (Survely)
+              </h3>
+              <p className="text-xs text-gray-700">
                 This is a project to do task with theme dark and light switch
                 and ui ux paradigms and async storage use.
               </p>
@@ -28,17 +30,20 @@ const Projects = () => {
                 data-snack-preview="true"
                 data-snack-theme="dark"
                 data-snack-supportedplatforms="mydevice,ios,android"
-                className="rounded-xl bg-gray-700 overflow-hidden border-2 border-gray-800 w-full h-[720px]"
+                className="rounded-xl bg-gray-700 overflow-hidden border-2 border-gray-800 w-[full] h-[420px]"
               ></div>
             </aside>
+            <script async src="https://snack.expo.dev/embed.js"></script>
           </React.Fragment>
         );
       case 1:
         return (
           <React.Fragment>
-            <section>
-              <h3>Tasker</h3>
-              <p>
+            <section className="flexf flex-col gap-4 mb-4">
+              <h3 className="text-xl font-semibold text-cyan-600">
+                Social Insigths
+              </h3>
+              <p className="text-xs text-gray-700">
                 This is a project to do task with theme dark and light switch
                 and ui ux paradigms and async storage use.
               </p>
@@ -47,10 +52,7 @@ const Projects = () => {
               <iframe
                 src="https://social-insights.vercel.app/"
                 ancestor-origins=""
-                style={{
-                  width: '100%',
-                  height: '720px',
-                }}
+                className="w-full h-[420px] rounded-xl"
               ></iframe>
             </aside>
           </React.Fragment>
@@ -60,7 +62,7 @@ const Projects = () => {
       default:
         return <div>Mobile Projects</div>;
     }
-  }, [currentTab]);
+  };
   return (
     <main>
       <ul className="flex gap-2">
@@ -84,7 +86,6 @@ const Projects = () => {
         })}
       </ul>
       {__renderTabContent()}
-      <script async src="https://snack.expo.dev/embed.js"></script>
     </main>
   );
 };
