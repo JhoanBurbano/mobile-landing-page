@@ -1,0 +1,20 @@
+---
+interface Props {
+  title: string;
+  isActive: boolean;
+  href: string;
+}
+
+const { title, isActive, href } = Astro.props;
+---
+
+<a
+  class="p-2 rounded-b-full min-w-[120px] text-center shadow-[#00000055] shadow-sm text-xs"
+  class:list={{
+    'bg-sky-600 font-bold': isActive,
+    'bg-zinc-200 text-gray-400': !isActive,
+  }}
+  href={href}
+>
+  {title}
+</a>

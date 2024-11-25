@@ -1,0 +1,85 @@
+---
+import Button from './Button.astro';
+import { Icon } from 'astro-icon/components';
+const CV_URL =
+  'https://burbanostudio-assets.s3.amazonaws.com/assets/jhoan_burbano_curriculum_vitae.pdf';
+
+interface Props {
+  index: number;
+}
+
+const { index = 0 } = Astro.props;
+
+const buttons = [
+  { title: 'Personal info', href: '/' },
+  { title: 'Projects', href: '/projects' },
+  { title: 'Contact', href: '/contact' },
+];
+---
+
+<header class="text-white bg-gray-50 rounded-xl relative pb-4">
+  <img
+    src="https://burbanostudio-assets.s3.amazonaws.com/assets/imgs/js_banner_linkedin.jpg"
+    alt="Banner"
+    class="w-full h-auto object-cover shadow-sm rounded-t-md"
+  />
+  <nav class="flex w-full px-4 absolute bottom-[118px]">
+    <img
+      src="https://burbanostudio-assets.s3.amazonaws.com/assets/imgs/profile-blue-300.jpg"
+      alt="Logo"
+      class="w-[180px] h-[180px] rounded-full shadow-lg shadow-[#0004] border-4 border-sky-600"
+    />
+    <section
+      class="flex gap-2 items-center mt-10 mx-2 px-3 text-sm h-max self-center"
+    >
+      {
+        buttons.map((button, _index) => (
+          <Button
+            title={button.title}
+            isActive={_index === index}
+            href={button.href}
+          />
+        ))
+      }
+    </section>
+  </nav>
+  <article class="flex text-gray-950 px-4 mt-[100px] z-10">
+    <main class="flex-1">
+      <h1 class="text-2xl font-bold text-teal-600">Jhoan Burbano</h1>
+      <p class="mt-1 text-sm">Mobile Engineer | Fullstack</p>
+      <section class="mt-2 flex gap-2">
+        {
+          [
+            { name: 'React Native', icon: 'react', style: 'bg-cyan-400' },
+            { name: 'Flutter', icon: 'flutter', style: 'bg-sky-500' },
+            { name: 'iOS', icon: 'apple-brand', style: 'bg-gray-200' },
+            { name: 'Android', icon: 'android', style: 'bg-green-400' },
+            // { name: 'NodeJS', icon: 'nodejs', style: 'bg-amber-400' },
+            // { name: 'Python', icon: 'python', style: 'bg-purple-400' },
+          ].map((skill) => (
+            <p
+              class={`p-1 px-2 text-gray-950 rounded-full text-xs mr-2 flex gap-1 items-center font-semibold shadow-md ${skill.style}`}
+            >
+              <Icon
+                name={`lineicons:${skill.icon.toLowerCase()}`}
+                class={`h-4 w-4 text-black`}
+              />
+              {skill.name}
+            </p>
+          ))
+        }
+      </section>
+    </main>
+    <a
+      href={CV_URL}
+      target="_blank"
+      class="p-2 rounded-full shadow-[#00000055] shadow-sm text-xs text-white bg-black h-min mt-auto flex gap-1 items-center font-bold cursor-pointer hover:bg-gray-600 active:bg-gray-900"
+    >
+      <Icon
+        name="lineicons:download-1"
+        class="h-5 w-5 text-white stroke-white"
+      />
+      Download CV
+    </a>
+  </article>
+</header>

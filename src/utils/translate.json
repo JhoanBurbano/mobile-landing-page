@@ -1,0 +1,576 @@
+{
+  "Profile": {
+    "name": "Jhoan Burbano",
+    "image": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/assets/imgs/profile-white-300.jpg"
+  },
+  "NavBar": {
+    "links": [
+      {
+        "title": "Personal Info",
+        "action": "/"
+      },
+      {
+        "title": "Projects",
+        "action": "projects"
+      },
+      {
+        "title": "Contact",
+        "action": "contact"
+      }
+    ]
+  },
+  "HomePage": {
+    "lettering": ["Hi,", "I'm Jhoan", "Burbano"],
+    "slogan": "Web Developer & Amateur Designer",
+    "typewriter": {
+      "fixed": "I am",
+      "words": ["Developer", "Designer", "Freelancer", "FullStack"]
+    },
+    "button": "Contact me"
+  },
+  "AboutPage": {
+    "title": "My, Myself & I",
+    "paragraphs": [
+      "I’m a FullStack Developer located in Colombia. I have a serious passion for optimization, animations and creating intuitive, dynamic user experiences.",
+      "Social person, problem solver, autodidact with high attention to detail. Fan of Comics, swimming, TV series and English songs. A family person and father of one hiperactive boy,",
+      "Interested in the entire frontend and backend spectrum and working on ambitious projects, startups, developers teams with positive people."
+    ],
+    "link": "Let's something special"
+  },
+  "ExperiencePage": {
+    "title": "Skills & Experience",
+    "next": "next page",
+    "paragraphs": [
+      "Since beginning my journey as a freelance developer nearly 7 years ago, I’ve done remote work for local agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.",
+      "I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development with React, Angular, Next & Vue, building small and medium web apps, custom plugins and libraries, features, animations, and coding interactive layouts.",
+      "I also have full-stack developer experience with the most popular stacks like MEAN(MongoDB, Express, Angular, Node) & MERN (MongoDB, Express, React, Node).",
+      "Visit my LinkedIn profile for more details or just contact me."
+    ],
+    "skills": [
+      {
+        "tab": "Frontend",
+        "content": [
+          {
+            "name": "Javascript",
+            "status": "proficient",
+            "level": 4,
+            "years": 7
+          },
+          {
+            "name": "Typescript",
+            "status": "proficient",
+            "level": 4,
+            "years": 7
+          },
+          {
+            "name": "Redux, NgRx",
+            "status": "advanced",
+            "level": 3,
+            "years": 5
+          },
+          {
+            "name": "AngularJS",
+            "status": "proficient",
+            "level": 4,
+            "years": 5
+          },
+          {
+            "name": "ReactJS (Typescript)",
+            "status": "proficient",
+            "level": 4,
+            "years": 5
+          },
+          {
+            "name": "NextJs",
+            "status": "proficient",
+            "level": 4,
+            "years": 5
+          },
+          {
+            "name": "Django",
+            "status": "advanced",
+            "level": 3,
+            "years": 2
+          }
+        ]
+      },
+      {
+        "tab": "Backend",
+        "content": [
+          {
+            "name": "NodeJS (ExpressJS)",
+            "status": "advanced",
+            "level": 3,
+            "years": 5
+          },
+          {
+            "name": "NestJs",
+            "status": "proficient",
+            "level": 4,
+            "years": 4
+          },
+          {
+            "name": "Python",
+            "status": "advanced",
+            "level": 3,
+            "years": 3
+          },
+          {
+            "name": "ASP .Net Core (C#)",
+            "status": "technical",
+            "level": 2,
+            "years": 2
+          }
+        ]
+      },
+      {
+        "tab": "Databases",
+        "content": [
+          {
+            "name": "PostgreSQL, My SQL",
+            "status": "advanced",
+            "level": 3,
+            "years": 4
+          },
+          {
+            "name": "MongoDB",
+            "status": "advanced",
+            "level": 3,
+            "years": 3
+          },
+          {
+            "name": "Firebase",
+            "status": "advanced",
+            "level": 3,
+            "years": 6
+          }
+        ]
+      },
+      {
+        "tab": "Mobile",
+        "content": [
+          {
+            "name": "Flutter (Dart)",
+            "status": "technical",
+            "level": 2,
+            "years": 2
+          },
+          {
+            "name": "Android Studio",
+            "status": "technical",
+            "level": 2,
+            "years": 2
+          },
+          {
+            "name": "React Native",
+            "status": "proficient",
+            "level": 4,
+            "years": 4
+          }
+        ]
+      }
+    ],
+    "experiences": [
+      {
+        "company": "Cheaf",
+        "years": "2023 - 2024",
+        "description": "Specialist in UI Development using React and React Native. Led the creation and evolution of an in-house Design System, enhancing UX and collaborating in remote teams.",
+        "job": "Senior Frontend & Mobile Engineer"
+      },
+      {
+        "job": "Frontend Engineer",
+        "company": "Aplazo S.A",
+        "years": "2022 - 2023",
+        "description": "I oversaw the maintenance of workflows within the risk and payments department, adapted new features, and refactored modules to align them with the latest functionalities."
+      },
+      {
+        "job": "Software Developer",
+        "company": "Evolution S.A",
+        "years": "2021 - 2022",
+        "description": "I led three fintech projects, focusing on payments and user experience."
+      },
+      {
+        "job": "Senior Fullstack Engineer",
+        "company": "MYC Solutions S.A",
+        "years": "2020 - 2021",
+        "description": "I supported software architecture and optimized processes for a new product in the company."
+      },
+      {
+        "job": "Fullstack Developer",
+        "company": "Freelance",
+        "years": "2016 - 2021",
+        "description": "I served as a frontend, backend, and DevOps developer, and led numerous projects for local businesses and small brands."
+      }
+    ]
+  },
+  "ProjectsPage": {
+    "title": "My Portfolio",
+    "paragraphs": [
+      "A small gallery of recent projects chosen by me. I've done them all together with amazing people from companies around the globe. It's only the most recent projects"
+    ],
+    "button": "See more",
+    "redirect": "https://github.com/JhoanBurbano/",
+    "projects": [
+      {
+        "name": "Architects",
+        "image": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/ARCHITECTS/project-bg_architects.png",
+        "description": "Architects es una plataforma innovadora de compra/venta de inmuebles diseñada para satisfacer las necesidades de arquitectos y profesionales del diseño. Con un enfoque centrado en la estética y la funcionalidad, Architects ofrece una experiencia inmersiva para explorar y adquirir propiedades únicas y de alta calidad. Con una interfaz elegante y fácil de usar, los usuarios pueden buscar y filtrar propiedades por ubicación, estilo arquitectónico y características específicas.",
+        "skills": [
+          "Angular13",
+          "RxJs",
+          "Recaptcha GCP",
+          "Web Socket",
+          "Socket.io",
+          "NestJS",
+          "MongoDB",
+          "Authentication",
+          "CRUD",
+          "AWS SDK"
+        ],
+        "back": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/ARCHITECTS/screenshot-architects.png",
+        "repository": "https://github.com/JhoanBurbano/architects-web",
+        "url": "https://architects-web.vercel.app/"
+      },
+      {
+        "name": "Piratest",
+        "image": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/piratest/project-bg_piratest.jpg",
+        "description": "El proyecto se centra en proporcionar a los usuarios una experiencia única para explorar, compartir y descubrir imágenes de manera colaborativa. Desde la creación y visualización de pines personalizados hasta la interacción en tiempo real con la comunidad, la plataforma ofrece un espacio creativo donde los usuarios pueden expresar su individualidad y encontrar inspiración visual. Con una interfaz intuitiva y funciones avanzadas de búsqueda, el proyecto busca fomentar la creatividad y la conexión dentro de una comunidad apasionada.",
+        "skills": [
+          "React",
+          "Redux",
+          "Next.js",
+          "Firebase",
+          "TypeScript",
+          "NextUI",
+          "Tailwind CSS",
+          "Eslint",
+          "Prettier",
+          "Axios",
+          "React Hook Form"
+        ],
+        "back": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/piratest/screenshot-piratest.png",
+        "repository": "https://github.com/JhoanBurbano/piratest",
+        "url": "https://piratest.vercel.app/"
+      },
+      {
+        "name": "Medialy",
+        "image": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/medialy/project-bg_medialy.jpg",
+        "description": "Medialy es una asimilacion red social utilizando Vue.js para el frontend, Node.js para el backend y MongoDB como base de datos. La aplicación incluye un sistema de autenticación de usuarios y se centra en optimizar la subida y reproducción de videos pesados. Además, se implementa un componente reutilizable para el formateo de texto en las publicaciones. El desarrollo prioriza buenas prácticas de maquetación HTML5 semántico, estilos organizados con metodologías como BEM y la separación efectiva de responsabilidades. El backend incluye una función en Node.js para el manejo eficiente de videos e imágenes desde el servidor. Este proyecto busca evaluar la capacidad del candidato para enfrentar desafíos técnicos en el desarrollo full stack y garantizar la calidad y eficiencia de la aplicación.",
+        "skills": ["Javascript", "Vue", "Vuex", "BEM"],
+        "back": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/medialy/screenshot-medialy.png",
+        "repository": "https://github.com/JhoanBurbano/video-manager-client",
+        "repository_back": "https://github.com/JhoanBurbano/video-manager-services",
+        "url": "https://video-manager-client.vercel.app/"
+      },
+      {
+        "name": "Landing Boda",
+        "image": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/jessi-joan/project-bg_jessi-joan.png",
+        "skills": ["NextJS", "NextJS", "AWS SDK", "MongoDB", "NodeJS", "Redux"],
+        "description": "Esta es una landing page de boda diseñada y desarrollada por él/ella. Esta página ofrece un diseño atractivo con un timeline interactivo que muestra fotos y videos, un sistema de confirmación de invitación y gestión de invitados, y la integración de la API de Google Maps para proporcionar ubicación y direcciones. Es un testimonio de su habilidad para combinar diseño y funcionalidad en un proyecto significativo.",
+        "back": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/jessi-joan/screenshot-jessi-joan.png",
+        "repository": "https://github.com/JhoanBurbano/wedding",
+        "repository_back": "https://github.com/JhoanBurbano/wedding-service",
+        "url": "https://jessi-joan.vercel.app/"
+      },
+      {
+        "name": "Postify",
+        "image": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/project-bg_task-manager.jpg",
+        "description": "Task Manager es una aplicación diseñada para facilitar la gestión de tareas y proyectos. Crea, organiza y supervisa tus tareas diarias, establece prioridades, fechas límite y realiza un seguimiento de tu progreso. Colabora con otros usuarios en proyectos compartidos y mantente al tanto del estado de cada tarea. Con Task Manager, simplifica tu vida organizando tu tiempo y logrando tus metas de manera eficiente y efectiva.",
+        "skills": [
+          "React",
+          "TypeScript",
+          "Redux Toolkit",
+          "React Router DOM",
+          "Tailwind CSS",
+          "Axios",
+          "React Hook Form",
+          "NestJS",
+          "MongoDB",
+          "Mongoose",
+          "JWT",
+          "@nestjs/jwt",
+          "@nestjs/passport",
+          "@nestjs/mongoose",
+          "Redux Toolkit Persist",
+          "Prettier",
+          "ESLint",
+          "Husky",
+          "lint-staged",
+          "SCSS",
+          "react-typewriter",
+          "Jest",
+          "Testing Library",
+          "Vercel",
+          "Heroku"
+        ],
+        "back": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/screenshot-task-manager.png",
+        "repository": "https://github.com/JhoanBurbano/task-manager-tool",
+        "repository_back": "https://github.com/JhoanBurbano/task-manager-services",
+        "url": "https://postify-frontend.vercel.app/"
+      },
+      {
+        "name": "Portfolio",
+        "image": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/project-bg_jsburbano.png",
+        "skills": [
+          "Angular 15",
+          "NgRx",
+          "RxJs",
+          "NestJS",
+          "JWT",
+          "NodeJS",
+          "AWS S3",
+          "AWS SDK",
+          "Nodemailer",
+          "MongoDB"
+        ],
+        "description": "En mi portafolio personal, puedes explorar mi trabajo y proyectos en el campo de la programación y el desarrollo web. Visita mi sitio web para descubrir mis habilidades y experiencia en diseño y desarrollo de sitios web interactivos y responsivos. Ahi encontrarás una variedad de proyectos en los que he trabajado, desde aplicaciones web hasta sitios corporativos y proyectos personales. Además, podrás conocer más sobre mis habilidades técnicas, experiencia laboral y educación.",
+        "back": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/screenshot-jsburbano.png",
+        "repository": "https://github.com/JhoanBurbano/jsburbano",
+        "repository_back": "https://github.com/JhoanBurbano/portfolio-services",
+        "url": "https://jhoanburbano.github.io/jsburbano"
+      },
+      {
+        "name": "Clockify",
+        "image": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/project-bg_clockify.png",
+        "description": "Clockify es un proyecto web que combina la elegancia de un reloj analógico con la precisión de un reloj digital. Disfruta de la simplicidad y funcionalidad en un solo lugar. Personaliza el estilo del reloj y elige entre diferentes temas para adaptarlo a tu gusto. Una forma minimalista y moderna de seguir el tiempo.",
+        "skills": ["HTML", "CSS", "JavaScript", "Typescript"],
+        "back": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/screenshot-clockify.png",
+        "repository": "https://github.com/JhoanBurbano/time-clock",
+        "url": "https://time-clock-pi.vercel.app/"
+      },
+      {
+        "name": "Juniorverse",
+        "image": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/jr-verse/project-bg_jr-verse.png",
+        "description": "Un blog de desarrollo orientado a programadores de JavaScript y Python. Aquí encontrarás contenido actualizado sobre mejores prácticas, tutoriales y casos de estudio relacionados con el desarrollo en estos dos lenguajes. Aprende sobre frameworks, bibliotecas, conceptos fundamentales y mantente al tanto de las últimas tendencias. Únete a la comunidad de programadores y mejora tus habilidades en el mundo de la programación. ¡Explora el blog y únete a nuestro viaje de aprendizaje y crecimiento!",
+        "skills": ["AngularJS", "ExpressJs", "RxJS"],
+        "back": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/rick_and_morty/rick-and-morty_background.webp",
+        "repository": "https://github.com/JhoanBurbano",
+        "url": "https://jhoanburbano.github.io/jsburbano"
+      },
+      {
+        "name": "Rick & Morty",
+        "image": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/rick_and_morty/project-bg_rick-and-morty.png",
+        "description": "Esta es una aplicación web que utiliza la API de Rick and Morty para ofrecer a los fanáticos una experiencia interactiva. Explora personajes, episodios y ubicaciones de la serie con una interfaz moderna y atractiva. Busca y filtra personajes, obtén detalles completos y descubre conexiones entre ellos. Explora los episodios, conoce la trama y los personajes destacados. Sumérgete en el universo de Rick and Morty y disfruta de una experiencia inmersiva.",
+        "skills": ["Typescript", "Angular", "NgRx"],
+        "back": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/projects/rick_and_morty/rick-and-morty_screenshot.png",
+        "repository": "https://github.com/JhoanBurbano/rick-and-morty",
+        "url": "https://rick-and-morty-aplazo.vercel.app/characters"
+      }
+    ]
+  },
+  "ContactPage": {
+    "title": "Contact me",
+    "paragraphs": [
+      "I’m interested in freelance opportunities or job opportunities especially with ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form."
+    ],
+    "form": [
+      {
+        "type": "text",
+        "name": "remitant"
+      },
+      {
+        "type": "text",
+        "name": "email"
+      },
+      {
+        "type": "text",
+        "name": "subject"
+      },
+      {
+        "type": "textarea",
+        "name": "message"
+      }
+    ],
+    "button": "Send Message"
+  },
+  "DocumentsPage": {
+    "title": "Documents",
+    "paragraphs": ["It is the documents gallery that you could need"],
+    "list": [
+      {
+        "filename": "jhoan_burbano_curriculum_vitae.pdf",
+        "url": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/assets/jhoan_burbano_curriculum_vitae.pdf"
+      },
+      {
+        "filename": "jhoan_burbano_english_certificate.pdf",
+        "url": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/assets/jhoan_burbano_english_certificate.pdf"
+      }
+    ]
+  },
+  "LinksPage": {
+    "title": "LINKS",
+    "links": [
+      {
+        "title": "@jhoanburbano",
+        "url": "https://github.com/JhoanBurbano",
+        "icon": "github"
+      },
+      {
+        "title": "@jsburbano07",
+        "url": "https://www.instagram.com/jsburbano07/",
+        "icon": "instagram"
+      },
+      {
+        "title": "@jsburbano",
+        "url": "https://www.linkedin.com/in/jsburbano/",
+        "icon": "linkedin"
+      },
+      {
+        "title": "@jsburbano",
+        "url": "https://www.linkedin.com/in/jsburbano/",
+        "icon": "tiktok"
+      },
+      {
+        "title": "Buy me a coffee",
+        "url": "https://paypal.me/SebasBurbano",
+        "icon": "paypal"
+      }
+    ]
+  },
+  "EditPage": {
+    "title": "Curriculum",
+    "name-files": {
+      "cv": "jhoan_burbano_curriculum_vitae.pdf"
+    }
+  },
+  "CV": {
+    "data": {
+      "banner": "https://w0.peakpx.com/wallpaper/384/833/HD-wallpaper-blured-background-abstract-blur.jpg",
+      "profile": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/assets/imgs/profile-white.jpg",
+      "name": "Jhoan Sebastian Burbano",
+      "career": "Senior Fullstack Engineer",
+      "email": "joans.burbano@gmail.com",
+      "info": ["Colombia, CO", "+57 319 784 1770", "Freelance"],
+      "links": {
+        "instagram": "https://www.instagram.com/jsburbano07",
+        "facebook": "https://www.facebook.com/SebasBurbano07",
+        "whatsapp": "https://api.whatsapp.com/send?phone=+573197841770&text=Hola,%20vengo%20de%20ver%20tu%20hoja%20de%20vida,%20quiero%20mas%20informaci%C3%B3n%20sobre%20ti",
+        "github": "https://github.com/JhoanBurbano",
+        "dribble": "https://dribbble.com/SebasBurbano",
+        "linkedin": "https://www.linkedin.com/in/jsburbano/",
+        "email": "mailto:joans.burbano@gmail.com"
+      },
+      "skills": [
+        "Typescript",
+        "Redux | ngRX",
+        "ReactJS",
+        "AngularJS",
+        "NextJS",
+        "NodeJS",
+        "ExpressJS",
+        "NestJS",
+        "Flutter",
+        "SQL",
+        "NOSQL",
+        "AWS S3",
+        "Yaml CLI",
+        "WebSocket",
+        "Python",
+        "C#",
+        "ASP NET CORE"
+      ],
+      "hobbies": [
+        "Travel",
+        "Flexible Schedule",
+        "Bonus",
+        "Good Social Environments",
+        "Learn & Teach",
+        "Hard"
+      ],
+      "langs": ["English | B2", "Portuguese | A1"],
+      "about": "<p className=\"about\">\n I'm a technology enthusiast and innovator, always on the lookout for new challenges and learning opportunities. I have a deep passion for the world of web development, particularly in designing interfaces and applications, and programming. Since a young age, I've been a self-learner, constantly seeking ways to enhance my skills. In my free time, I enjoy outdoor sports and traveling. I believe in finding a healthy work-life balance, and I've gained expertise in advanced architectures like microfrontends, PCI compliance, payment gateways, and efficient troubleshooting using tools like DataDog. I'm well-prepared to lead exciting projects and tackle issues effectively.</p>",
+      "experience": [
+        {
+          "enterprise": "Cheaf",
+          "year": "2023 - 2024",
+          "description": "Specialist in user interface development using React and React Native. Led the creation and evolution of an internal design system, enhancing the user experience and collaborating with remote teams.",
+          "job": "Senior Frontend & Mobile Engineer"
+        },
+        {
+          "title": "Senior Frontend & Mobile Engineer",
+          "enterprise": "SIA",
+          "year": "2023",
+          "description": "<b>As a team lead for the frontend development team, I orchestrated tasks for each sprint, closely monitored my team's progress, and planned new requirements for customer success, as well as relevant refactoring.</b>"
+        },
+        {
+          "enterprise": "Aplazo S.A",
+          "year": "2022 - 2023",
+          "description": "<b>In this fintech, I was responsible for overseeing the maintenance of all workflows within the risk and payments department, adapting new features, and refactoring modules to align them with the latest functionalities.</b>",
+          "title": "Frontend Engineer"
+        },
+        {
+          "enterprise": "Evolution S.A",
+          "year": "2021 - 2022",
+          "description": "<b>I was the lead of three Fintech projects, I created and gived support about the payments and UX experience</b>",
+          "title": "Software Developer"
+        },
+        {
+          "enterprise": "MYC Solutions",
+          "year": "2020 - 2021",
+          "description": "<b>I am responsible for supporting software architecture and optimizing processes for a new product within the enterprise.</b>",
+          "title": "Senior Fullstack Developer"
+        },
+        {
+          "enterprise": "Freelance",
+          "year": "2016-2021",
+          "description": "<b>I was the frontend, backend and devOps developer and lead of a lot of projects to local business and smalls brands.</b>",
+          "title": "Fullstack Developer"
+        }
+      ],
+      "academic": [
+        {
+          "school": "Universidad de Caldas",
+          "year": "2021",
+          "description": "\n                <b>\n                Python, \n                Java, \n                C#, \n                AngularJS, \n                Responsive Design, \n                MongoDB, \n                NodeJs, \n                WebSocket, \n                ExpressJS, \n                API REST\n                </b>\n                ",
+          "title": "Software Developer"
+        },
+        {
+          "school": "H.E.N.R.Y",
+          "year": "2022",
+          "description": "<b>\n            PostgreSQL, \n            Redux, \n            MongoDB, \n            ExpressJS, \n            ReactJS, \n            NodeJS, \n            SCRUM\n            </b>",
+          "title": "Fullstack Developer"
+        },
+        {
+          "school": "Universidad ICESI",
+          "year": "2018",
+          "description": "<b>\n            6 semestres of university\n            <br/>\n            Java, POO, C#\n            </b>",
+          "title": "System Engineer"
+        }
+      ],
+      "files": [
+        {
+          "Curriculum Vitae": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/assets/jhoan_burbano_curriculum_vitae.pdf"
+        },
+        {
+          "English Certification": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/assets/jhoan_burbano_english_certificate.pdf"
+        }
+      ],
+      "filename": "jhoan_burbano_curriculum_vitae.pdf"
+    },
+    "template": {
+      "sections": [
+        "Skills",
+        "Langs",
+        "Hobbies & Preferences",
+        "About Me",
+        "Work Experience",
+        "Academic Formation"
+      ]
+    }
+  },
+  "CoverLetter": {
+    "title": "Cover Letter",
+    "background": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/assets/cover-letter.png",
+    "paragraphs": [
+      "Dear:",
+      "I am writing to express my interest in a potential position in your company. I am a highly motivated full-stack developer passionate about technology, with over 7 years of experience in web and mobile application development. I am a self-taught person and I am always seeking to learn new technologies and skills.",
+      "I have worked on challenging projects, collaborating with multidisciplinary teams in the implementation of technical and functional solutions to improve the user experience. I have a strong knowledge of programming languages such as JavaScript, React, Angular, Node.js, Python, and databases such as MySQL and MongoDB.",
+      "I am a proactive person, who always seeks to find solutions to problems, work in teams and generate a positive and respectful work environment. I am passionate about constant growth and learning, so I am willing to face any challenge that comes my way.",
+      "In addition, I consider myself a person with good communication and organizational skills, which allows me to maintain fluid and effective communication with the team and clients. I am committed to quality and compliance with established deadlines and objectives.",
+      "Thank you for your time and consideration, and I look forward to the opportunity to discuss with you how I can contribute to the success of your company."
+    ],
+    "thanks": "Sincerely,",
+    "sign": "https://burbanostudio-assets.s3.us-east-2.amazonaws.com/assets/sign.png",
+    "name": "Jhoan Sebastian Burbano"
+  }
+}

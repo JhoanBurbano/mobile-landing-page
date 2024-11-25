@@ -1,6 +1,6 @@
 ---
 interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
@@ -8,43 +8,58 @@ const { title } = Astro.props;
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .hubot-sans-font-light {
+        font-family: 'Hubot Sans', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        font-variation-settings: 'wdth' 100;
+      }
+      .hubot-sans-font-regular {
+        font-family: 'Hubot Sans', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: 'wdth' 100;
+      }
+      .hubot-sans-font-bold {
+        font-family: 'Hubot Sans', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings: 'wdth' 100;
+      }
+      body::-webkit-scrollbar {
+        width: 5px;
+      }
+      body::-webkit-scrollbar-thumb {
+        background-color: #18414b;
+        border-radius: 10px;
+      }
+      body::-webkit-scrollbar-track {
+        background-color: #1a202c;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-zinc-900 min-h-[100vh] text-sm hubot-sans-font-regular before:-z-10 before:absolute before:inset-0 before:bg-[url('https://burbanostudio-assets.s3.amazonaws.com/assets/imgs/logos/js/js-contrast.png')] before:bg-[length:5%_2%] before:opacity-[.02] before:content-['']"
+  >
+    <slot />
+  </body>
 </html>
-<style is:global>
-	:root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-	}
-	html {
-		font-family: system-ui, sans-serif;
-		background: #13151a;
-	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
-</style>

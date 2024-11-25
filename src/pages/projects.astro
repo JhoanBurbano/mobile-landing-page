@@ -1,0 +1,31 @@
+---
+import axios from 'axios';
+import Card from '../components/Card.astro';
+import LayoutNavigator from '../layouts/LayoutNavigator.astro';
+import ProjectsComponent from '../components/Projects';
+import {
+  SEQUENCE_BLUE_TW,
+  SEQUENCE_RED_TW,
+} from '../constants/colors.constants';
+import portfolio from '../utils/translate.json';
+
+// const portfolio = await axios(
+//   'https://burbanostudio-assets.s3.amazonaws.com/portfolio/i18n/en.json',
+//   {
+//     headers: {
+//       pragma: 'no-cache',
+//       'cache-control': 'no-cache',
+//     },
+//   },
+// ).then((res) => res.data);
+---
+
+<LayoutNavigator title="jsburbano | Home" index={1}>
+  <Card
+    title="About me"
+    className="bg-gray-50 text-red-700"
+    iconTitle="lineicons:user"
+  >
+    <ProjectsComponent client:load />
+  </Card>
+</LayoutNavigator>

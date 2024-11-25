@@ -1,0 +1,20 @@
+---
+import TopBar from '../components/TopBar.astro';
+import Layout from './Layout.astro';
+
+interface Props {
+  title: string;
+  index: number;
+}
+
+const { title, index = 0 } = Astro.props;
+---
+
+<Layout title={title}>
+  <main
+    class="p-8 max-w-[1280px] min-w-[300px] w-[85%] m-auto gap-4 flex flex-col"
+  >
+    <TopBar index={index} />
+    <slot />
+  </main>
+</Layout>

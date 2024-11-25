@@ -1,0 +1,92 @@
+---
+import axios from 'axios';
+import Card from '../components/Card.astro';
+import LayoutNavigator from '../layouts/LayoutNavigator.astro';
+import {
+  SEQUENCE_BLUE_TW,
+  SEQUENCE_RED_TW,
+} from '../constants/colors.constants';
+import portfolio from '../utils/translate.json';
+
+// const portfolio = await axios(
+//   'https://burbanostudio-assets.s3.amazonaws.com/portfolio/i18n/en.json',
+//   {
+//     headers: {
+//       pragma: 'no-cache',
+//       'cache-control': 'no-cache',
+//     },
+//   },
+// ).then((res) => res.data);
+---
+
+<LayoutNavigator title="jsburbano | Home" index={2}>
+  <!-- Contact form -->
+  <Card
+    title="Contact me"
+    className="bg-gray-50 text-red-700"
+    iconTitle="lineicons:smile"
+  >
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="contact" />
+      <div className="mb-4">
+        <label
+          htmlFor="name"
+          className="block text-sm font-medium text-gray-700"
+        >
+          Name
+        </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          autoComplete="name"
+          required
+          className="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+        />
+      </div>
+      <div className="mb-4">
+        <label
+          htmlFor="email"
+          className="block text-sm font-medium text-gray-700"
+        >
+          Email
+        </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          autoComplete="email"
+          required
+          className="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+        />
+      </div>
+      <div className="mb-4">
+        <label
+          htmlFor="message"
+          className="block text-sm font-medium text-gray-700"
+        >
+          Message
+        </label>
+        <textarea
+          name="message"
+          id="message"
+          required
+          className="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+        ></textarea>
+      </div>
+      <div className="mb-4">
+        <button
+          type="submit"
+          className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+        >
+          Send
+        </button>
+      </div>
+    </form>
+  </Card>
+</LayoutNavigator>
